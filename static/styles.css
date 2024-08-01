@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    background-color: rgb(243, 243, 243);
+}
+.container
+{
+    margin: 50px 0px;
+    width: 450px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+/* form
+{
+    display: grid;
+    /* gap: 5px; */
+    /* grid-template-columns: repeat(2,1fr); */
+    /* grid-template-rows: repeat(12,35px);
+    grid-auto-rows: 35px; */
+/* }  */
+form label
+{
+    margin: 5px 0px;
+    text-align: center;
+    display: block;
+}
+h1
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+form input, select
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+}
+form select
+{
+    cursor: pointer;
+    text-align: center;
+}
+form input[type="submit"]
+{
+    margin-top: 10px;
+    cursor: pointer;
+}
+form input[type="submit"]:hover
+{
+    background-color: rgb(204, 204, 204);
+}   
+#result{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
